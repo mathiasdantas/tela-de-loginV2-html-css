@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f8fafb;
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  margin: 0px;
+  padding: 0px;
+}
+
+#img {
+  height: 590px;
+  width: 526px;
+}
+
+.flex {
+  display: flex;
+  margin: 35px auto;
+  max-width: 75%;
+  align-items: center;
+}
+
+.flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.flex3 {
+  display: flex;
+  align-items: center;
+}
+
+.flex > .div-img {
+  margin-right: 100px;
+}
+
+.flex > .div-conteudo {
+  margin-left: 60px;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 10px;
+  font-weight: 400;
+  color: #202020;
+}
+
+article p {
+  font-size: 15px;
+  color: #aaaaaa;
+  line-height: 20px;
+}
+
+.style-input {
+  background-color: #EDF2F5;
+  width: 325px;
+  height: 60px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 0.5px solid #dcdedf;
+  border-bottom: none;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.style-input2 {
+  background-color: #EDF2F5;
+  width: 325px;
+  height: 60px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 0.5px solid #dcdedf;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.flex2 form {
+  align-items: center;
+}
+
+#input-select {
+  min-width: 18px;
+  min-height: 18px;
+}
+
+label {
+  margin: 0px;
+  font-size: 14px;
+  color: #707070;
+}
+
+.flex2 a {
+  font-size: 15px;
+  color: #707070;
+  margin-right: 15px;
+}
+
+button {
+  width: 325px;
+  height: 55px;
+  margin: 20px auto;
+  background-color: #483DFF;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+p {
+  color: #707070;
+}
+
+.flex3 a {
+  text-decoration: none;
+}
+
+.redeSocial {
+  width: 45px;
+  height: 45px;
+  margin-right: 5px;
+}
